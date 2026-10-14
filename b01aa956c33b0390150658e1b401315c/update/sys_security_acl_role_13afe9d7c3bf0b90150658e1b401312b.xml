@@ -9,7 +9,7 @@
         <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
-        <sys_security_acl display_value="">a1afa9d7c3bf0b90150658e1b4013133</sys_security_acl>
+        <sys_security_acl display_value="x_2240531_it_sup_0_it_support_ticket_main.description">a1afa9d7c3bf0b90150658e1b4013133</sys_security_acl>
         <sys_update_name>sys_security_acl_role_13afe9d7c3bf0b90150658e1b401312b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-10-13 09:36:54</sys_updated_on>

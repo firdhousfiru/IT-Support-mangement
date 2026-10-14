@@ -1,100 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="department" table="x_2240531_it_sup_0_it_support_ticket" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_2240531_it_sup_0_it_support_ticket" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>department</element>
+            <element>priority</element>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
-            <sys_id>b3cd2d5ec33b0390150658e1b4013142</sys_id>
+            <sys_created_on>2026-10-10 07:07:31</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>department</sys_name>
+            <sys_name>priority</sys_name>
             <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
             <sys_policy/>
             <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
-            <sys_update_name>sys_choice_x_2240531_it_sup_0_it_support_ticket_department</sys_update_name>
+            <sys_update_name>sys_choice_x_2240531_it_sup_0_it_support_ticket_priority</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
+            <sys_updated_on>2026-10-10 07:07:31</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>priority</element>
             <hint/>
             <inactive>false</inactive>
-            <label>IT</label>
+            <label>High</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
+            <sys_created_on>2026-10-10 07:07:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bbcd2d5ec33b0390150658e1b4013141</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
-            <value>it</value>
+            <sys_updated_on>2026-10-10 07:07:31</sys_updated_on>
+            <value>high</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>priority</element>
             <hint/>
             <inactive>false</inactive>
-            <label>HR</label>
+            <label>Medium</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
+            <sys_created_on>2026-10-10 07:07:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7bcd2d5ec33b0390150658e1b4013144</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
-            <value>hr</value>
+            <sys_updated_on>2026-10-10 07:07:32</sys_updated_on>
+            <value>medium</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>department</element>
+            <element>priority</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Finance</label>
+            <label>Low</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
+            <sys_created_on>2026-10-10 07:07:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ffcd2d5ec33b0390150658e1b4013145</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
-            <value>finance</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>department</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Sales</label>
-            <language>en</language>
-            <name>x_2240531_it_sup_0_it_support_ticket</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>77cd2d5ec33b0390150658e1b4013147</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
-            <value>sales</value>
+            <sys_updated_on>2026-10-10 07:07:32</sys_updated_on>
+            <value>low</value>
         </sys_choice>
     </sys_choice>
 </record_update>

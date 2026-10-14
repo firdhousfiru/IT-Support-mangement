@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-10-12 09:04:03</sys_created_on>
-            <sys_id>aeced88bc3738790150658e1b401314f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>department</sys_name>
             <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2026-10-12 09:04:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5bee5403c3b38790150658e1b40131da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-12 09:04:47</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2026-10-12 09:04:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f5de50cfc3738790150658e1b401312b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-12 09:04:26</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2026-10-12 09:04:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>45be94cfc3738790150658e1b4013155</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-12 09:04:03</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2026-10-12 09:05:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>730f9c0fc3738790150658e1b40131f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-12 09:05:32</sys_updated_on>

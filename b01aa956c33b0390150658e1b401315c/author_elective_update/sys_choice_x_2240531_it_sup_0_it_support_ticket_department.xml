@@ -1,100 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_2240531_it_sup_0_it_support_ticket" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="department" table="x_2240531_it_sup_0_it_support_ticket" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>state</element>
+            <element>department</element>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 07:07:25</sys_created_on>
-            <sys_id>7ae07556c37b0390150658e1b4013117</sys_id>
+            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>state</sys_name>
+            <sys_name>department</sys_name>
             <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
             <sys_policy/>
             <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
-            <sys_update_name>sys_choice_x_2240531_it_sup_0_it_support_ticket_state</sys_update_name>
+            <sys_update_name>sys_choice_x_2240531_it_sup_0_it_support_ticket_department</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 07:07:25</sys_updated_on>
+            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>state</element>
+            <element>department</element>
             <hint/>
             <inactive>false</inactive>
-            <label>New</label>
+            <label>IT</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 07:07:25</sys_created_on>
+            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>62e07556c37b0390150658e1b4013117</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 07:07:25</sys_updated_on>
-            <value>new</value>
+            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
+            <value>it</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>state</element>
+            <element>department</element>
             <hint/>
             <inactive>false</inactive>
-            <label>In Progress</label>
+            <label>HR</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 07:07:25</sys_created_on>
+            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fee07556c37b0390150658e1b4013119</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 07:07:25</sys_updated_on>
-            <value>in_progress</value>
+            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
+            <value>hr</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>state</element>
+            <element>department</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Resolved</label>
+            <label>Finance</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 07:07:26</sys_created_on>
+            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>76e07556c37b0390150658e1b401311b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 07:07:26</sys_updated_on>
-            <value>resolved</value>
+            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
+            <value>finance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>state</element>
+            <element>department</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Sales</label>
             <language>en</language>
             <name>x_2240531_it_sup_0_it_support_ticket</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-10 07:07:26</sys_created_on>
+            <sys_created_on>2026-10-10 06:53:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fae07556c37b0390150658e1b401311c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-10 07:07:26</sys_updated_on>
-            <value>closed</value>
+            <sys_updated_on>2026-10-10 06:53:50</sys_updated_on>
+            <value>sales</value>
         </sys_choice>
     </sys_choice>
 </record_update>

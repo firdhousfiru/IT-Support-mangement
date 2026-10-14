@@ -7,7 +7,7 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>Allow write for state in x_2240531_it_sup_0_it_support_ticket_main, for users with roles (x_2240531_it_sup_0.it admin, x_2240531_it_sup_0.it support).</description>
         <local_or_existing>Existing</local_or_existing>
         <name>x_2240531_it_sup_0_it_support_ticket_main.state</name>
         <operation display_value="write">write</operation>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-13 09:45:17</sys_created_on>
         <sys_id>a191311fc3bf0b90150658e1b401310e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_2240531_it_sup_0_it_support_ticket_main.state</sys_name>
         <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
         <sys_update_name>sys_security_acl_a191311fc3bf0b90150658e1b401310e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-13 09:45:17</sys_updated_on>
+        <sys_updated_on>2026-10-13 09:45:18</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
