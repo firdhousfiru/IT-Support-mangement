@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 07:09:21</sys_created_on>
+        <sys_id>0664404bc3bf4790150658e1b40131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0664404bc3bf4790150658e1b40131ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 07:09:21</sys_updated_on>
+        <table>x_2240531_it_sup_0_it_support_ticket</table>
+        <ui_policy display_value="category mandatory when department selected">36e28847c3bf4790150658e1b401319c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=0664404bc3bf4790150658e1b40131ee"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="IT Support Ticket old" language="en" table="x_2240531_it_sup_0_it_support_ticket">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>IT Support Ticket old</label>
+            <language>en</language>
+            <name>x_2240531_it_sup_0_it_support_ticket</name>
+            <plural>IT Support Ticket olds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-10 06:39:45</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>IT Support Ticket old</sys_name>
+            <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
+            <sys_update_name>sys_documentation_x_2240531_it_sup_0_it_support_ticket__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-12 08:49:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

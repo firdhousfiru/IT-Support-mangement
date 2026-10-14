@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d99a2d96c33b0390150658e1b401317d" label="IT Support Ticket old" max_length="40" name="x_2240531_it_sup_0_it_support_ticket" type="collection">
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+            </choice>
+        </element>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Ticket Number" max_length="40" name="number" type="string"/>
+        <element label="Resolution Notes" max_length="4000" name="resolution_notes" type="journal"/>
+        <element choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sales" sequence="3" value="sales"/>
+                <element inactive_on_update="false" label="HR" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="IT" sequence="0" value="it"/>
+                <element inactive_on_update="false" label="Finance" sequence="2" value="finance"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" dependent="department" dependent_on_field="department" label="Category" max_length="40" name="category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="hr" inactive_on_update="false" label="Payroll issue" sequence="3" value="payroll_issue"/>
+                <element dependent_value="hr" inactive_on_update="false" label="Invoice issue" sequence="4" value="invoice_issue"/>
+                <element dependent_value="it" inactive_on_update="false" label="Laptop Issue" sequence="0" value="laptop_issue"/>
+                <element dependent_value="finance" inactive_on_update="false" label="Payment delay" sequence="7" value=" payment_delay"/>
+                <element dependent_value="sales" inactive_on_update="false" label="Sales report issue," sequence="9" value="sales_report_issue,"/>
+                <element dependent_value="it" inactive_on_update="false" label="Software Install" sequence="1" value="software_install"/>
+                <element dependent_value="hr" inactive_on_update="false" label="Leave access" sequence="5" value=" leave_access"/>
+                <element dependent_value="it" inactive_on_update="false" label="Netwok Issue" sequence="2" value="netwok_issue"/>
+                <element dependent_value="finance" inactive_on_update="false" label="Invoice issue" sequence="6" value=" invoice_issue"/>
+                <element dependent_value="sales" inactive_on_update="false" label="CRM issue" sequence="8" value="crm_issue"/>
+                <element dependent_value="sales" inactive_on_update="false" label="Customer data access" sequence="10" value="customer_data_access"/>
+            </choice>
+        </element>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Resolved" sequence="2" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

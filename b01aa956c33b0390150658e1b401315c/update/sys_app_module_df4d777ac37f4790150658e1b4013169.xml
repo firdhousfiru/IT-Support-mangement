@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="IT support Management">5d9da51ec33b0390150658e1b4013146</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Assigned to Me</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2240531_it_sup_0_it_support_ticket_main</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2240531_it_sup_0.it support</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 06:38:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df4d777ac37f4790150658e1b4013169</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_2240531_it_sup_0_it_support_ticket_main</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Support Ticket Mangement" source="x_2240531_it_sup_0">b01aa956c33b0390150658e1b401315c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Support Ticket Mangement">b01aa956c33b0390150658e1b401315c</sys_scope>
+        <sys_update_name>sys_app_module_df4d777ac37f4790150658e1b4013169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 11:03:02</sys_updated_on>
+        <timeline_page/>
+        <title>Assigned to Me</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
